@@ -9,7 +9,7 @@ export class OpenAIOperations {
         // });
         this.model_name = model_name;
         this.history_length = history_length;
-        this.customEndpoint = 'TU_ENLACE_PERSONALIZADO'; // Ajusta esto con tu enlace personalizado
+        this.customEndpoint = 'http://localhost:1234/v1'; // Ajusta esto con tu enlace personalizado
     }
 
     // No necesitas check_history_length(), ya que no estás gestionando el historial de mensajes aquí
